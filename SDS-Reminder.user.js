@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SDS Reminder
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       You
 // @match        https://de143.grepolis.com/game/index*
@@ -51,7 +51,7 @@ var cityName=reportElement.getElementsByClassName("gp_town_link")[0].innerText;
                         leftSpan.appendChild(rightSpan);
                         addBtn.appendChild(leftSpan);
 addBtn.addEventListener('click', function () {
-                               fetch("https://discord.com/api/webhooks/1157933028509761576/UTvnp6TVnvBXrsgN5hn4WtLb2LY8xYvvCqUhBt4n3WS_oyD3vL5g0YXdfxG6fMqRwPK_", {
+                               fetch("https://discord.com/api/webhooks/1164260446199623700/EsTYwl3s8BbsbIFrXoQmVNjHZ1k8rL91yr6s1aZqn2TWE7nF6y5MMO2el_s3R4MCIzT9", {
                 method: 'POST',
                 headers: {
                     'Accept': '*/*',
