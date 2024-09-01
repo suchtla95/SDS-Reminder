@@ -4,7 +4,7 @@
 // @version      0.2
 // @description  try to take over the world!
 // @author       You
-// @match        https://de143.grepolis.com/game/index*
+// @match        https://de152.grepolis.com/game/index*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // ==/UserScript==
@@ -51,7 +51,7 @@ var cityName=reportElement.getElementsByClassName("gp_town_link")[0].innerText;
                         leftSpan.appendChild(rightSpan);
                         addBtn.appendChild(leftSpan);
 addBtn.addEventListener('click', function () {
-                               fetch("https://discord.com/api/webhooks/1164260446199623700/EsTYwl3s8BbsbIFrXoQmVNjHZ1k8rL91yr6s1aZqn2TWE7nF6y5MMO2el_s3R4MCIzT9", {
+                               fetch("https://discord.com/api/webhooks/1279901801449259049/mE6PvwUIsYJiavohZ8bMR_AA82m8KorONEuLQnG5MXWi2Y3i2wkZZHbiD0gtnyzLOzhF", {
                 method: 'POST',
                 headers: {
                     'Accept': '*/*',
