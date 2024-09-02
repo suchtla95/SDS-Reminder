@@ -2,8 +2,8 @@
 // @name         SDS Reminder
 // @namespace    http://tampermonkey.net/
 // @version      0.2
-// @description  try to take over the world!
-// @author       NOT a play
+// @description  idk
+// @author       NOT a de152 player
 // @match        https://de152.grepolis.com/game/index*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
