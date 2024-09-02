@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  try to take over the world!
-// @author       You
+// @author       NOT a play
 // @match        https://de152.grepolis.com/game/index*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
@@ -51,7 +51,7 @@ var cityName=reportElement.getElementsByClassName("gp_town_link")[0].innerText;
                         leftSpan.appendChild(rightSpan);
                         addBtn.appendChild(leftSpan);
 addBtn.addEventListener('click', function () {
-                               fetch("https://discord.com/api/webhooks/1279901801449259049/mE6PvwUIsYJiavohZ8bMR_AA82m8KorONEuLQnG5MXWi2Y3i2wkZZHbiD0gtnyzLOzhF", {
+                               fetch("https://discord.com/api/webhooks/1280227217661759628/IUyJ3lcS-M7BzP81-bYyiABRG2HuMbAmLLxaaJ2tO4AjuJZHxJzOcVuJVfg0zTc3AK_Z", {
                 method: 'POST',
                 headers: {
                     'Accept': '*/*',
